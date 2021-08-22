@@ -12,7 +12,7 @@ Welcome! I am a Ph.D. student at the [University of Wisconsin-Madison Water Reso
 
 My work is motivated by the links between the atmosphere, water, and society where extremes are intensifying, urbanization is expanding, and the climate continues to change.   
 
-I utilize observational data, physically based models, and statistical techniques to 1) investigate emerging hydrologic based adaptions, 2) quantify processes effect day-to-day and climate extremes, and ultimately 3) identify key actions that can improve environmental sustainability.
+I utilize observational data, physically based models, and statistical techniques to 1) investigate emerging hydrologic based adaptions, 2) quantify processes effect on day-to-day meteorology and climate extremes, and ultimately 3) identify key actions that can improve environmental sustainability.
 
 <!-- ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
