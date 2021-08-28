@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-This has things in it
+
 ## Current Projects
 
 ### integrating the Processes of Green Infrastructure in a Large-Scale Land Surface Model
