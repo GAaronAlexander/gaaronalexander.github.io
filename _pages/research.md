@@ -12,10 +12,10 @@ author_profile: true
 ![Test Image](/images/conceptual_model_v4_simple_title-01.png)
 
 
-{% include base_path %}
+<!-- {% include base_path %}
 
 {% assign ordered_pages = site.research | sort:"order_number" %}
 
 {% for post in ordered_pages %}
   {% include archive-single.html type="grid" %}
-{% endfor %}
+{% endfor %} -->
