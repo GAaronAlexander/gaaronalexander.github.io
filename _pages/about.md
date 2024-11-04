@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+<img src="../images/headerphoto_aboutme.jpg" alt="Image showing a stormy urban landscape with trees and hydrologic extremes occuring in a very heterogenous region." style="float:right;max-width:100%;height:auto;padding:3px;"/>
+
 Welcome! I am a Ph.D. student at the [University of Wisconsin-Madison Water Resources Engineering Department](https://www.engr.wisc.edu/department/civil-environmental-engineering/research-in-cee/water-resources-engineering-science/). I am a member of the [Hydroclimate Extremes Research Group](https://her.cee.wisc.edu/) and [Hydroecology Lab](https://hydroecology.cee.wisc.edu/) and advised by Dr. Daniel B. Wright, Dr. Steve Lohiede II, and [Dr. Carolyn B. Voter](https://carolynbvoter.com/).
 
 My work is motivated by the links between the atmosphere, water, and society where extremes are intensifying, urbanization is expanding, and the climate continues to change.   
