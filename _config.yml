@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "G. Aaron Alexander"
 title_separator          : "-"
 name                     : &name "G. Aaron Alexander"
-description              : &description "Ph.D. Student"
+description              : &description "personal description"
 url                      : https://gaaronalexander.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gaaronalexander/gaaronalexander.github.io"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "G. Aaron Alexander"
   avatar           : "headshot_v1.jpg"
-  bio              : "Water Resource Engineering Ph.D. Student"
-  location         : "University of Wisconsin-Madison"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  bio              : "Water Resource Engineering Ph.D. Candidate"
+  location         : "Madison, WI"
+  employer         : "University of Wisconsin-Madison"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=0qgzM0wAAAAJ&hl=en"
   email            : "gaalexander3@wisc.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/aaron-alexander-68092a160/"
+  orcid            : "https://orcid.org/0000-0001-5088-0366"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
