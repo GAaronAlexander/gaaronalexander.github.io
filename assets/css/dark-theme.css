@@ -1,11 +1,19 @@
-/* Change link colors and highlights to Wisconsin Red */
+/* Change the main background color to light grey */
+body {
+    background-color: #f5f5f5 !important;  /* Light grey */
+    color: #333 !important;               /* Dark text for contrast */
+}
+
+/* Change link colors to Wisconsin Red */
 a {
     color: #C8102E !important;  /* Wisconsin Red for links */
+    text-decoration: none;      /* Remove underline by default */
 }
 
 a:hover,
 a:focus {
-    color: #A60A2C !important;  /* Slightly darker red for hover effect */
+    color: #A60A2C !important;  /* Darker red for links on hover */
+    text-decoration: underline; /* Add underline on hover/focus */
 }
 
 /* Change button styles to Wisconsin Red */
@@ -18,26 +26,30 @@ a:focus {
     background-color: #A60A2C !important;  /* Darker Wisconsin Red on hover */
 }
 
-/* Change navbar highlight colors to Wisconsin Red */
+/* Change navbar background and navbar links to Wisconsin Red */
 .navbar {
     background-color: #C8102E !important;  /* Wisconsin Red for navbar background */
 }
 
 .navbar .nav-link {
-    color: #fff !important;                /* White text for navbar links */
+    color: white !important;  /* White text for navbar links */
 }
 
-.navbar .nav-link:hover {
-    color: #f5f5f5 !important;             /* Light color for navbar links on hover */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #f5f5f5 !important;  /* Light color on hover/focus for navbar links */
 }
 
-/* Highlight headings in Wisconsin Red */
+/* Change headings (h1, h2, h3, etc.) to Wisconsin Red */
 h1, h2, h3, h4, h5, h6 {
-    color: #C8102E !important;  /* Wisconsin Red for all headings */
+    color: #C8102E !important;  /* Wisconsin Red for headings */
 }
 
-/* Change the main background color to light grey */
-body {
-    background-color: #f5f5f5 !important;  /* Light grey */
-    color: #333;                          /* Dark text for good contrast */
+/* Optional: Change footer links to Wisconsin Red */
+.footer a {
+    color: #C8102E !important;  /* Wisconsin Red for footer links */
+}
+
+.footer a:hover {
+    color: #A60A2C !important;  /* Darker red for footer links on hover */
 }
