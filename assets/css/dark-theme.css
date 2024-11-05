@@ -1,32 +1,68 @@
-/* Dark mode background and text color */
-body {
-  background-color: #121212; /* Dark background */
-  color: #e0e0e0; /* Light text */
+/* Dark theme overrides */
+body, html {
+    background-color: #121212 !important; /* Dark background */
+    color: #e0e0e0 !important; /* Light text */
 }
 
-/* Adjust links to be more visible */
+/* Links and other text elements */
 a {
-  color: #BB86FC; /* Light purple for links */
+    color: #bb86fc !important; /* Light purple links */
 }
 
-/* Modify headers for better contrast */
-h1, h2, h3, h4, h5, h6 {
-  color: #FFFFFF; /* Light text for headings */
+a:hover {
+    color: #3700b3; /* Darker purple on hover */
 }
 
-/* Adjust code blocks */
-pre, code {
-  background-color: #333333;
-  color: #f0f0f0;
-}
-
-/* Modify navbar for dark mode */
 .navbar {
-  background-color: #333333; /* Dark navbar */
+    background-color: #121212 !important;  /* Dark background */
+    color: #e0e0e0 !important;              /* Light text color */
 }
 
-/* Adjust footer background */
-footer {
-  background-color: #121212;
-  color: #e0e0e0;
+.navbar a {
+    color: #e0e0e0 !important;  /* Light text for links */
+}
+
+.navbar a:hover {
+    color: #bb86fc !important;  /* Purple color on hover */
+}
+
+/* Footer */
+.footer {
+    background-color: #121212 !important;  /* Dark background */
+    color: #e0e0e0 !important;              /* Light text color */
+}
+
+.footer a {
+    color: #bb86fc !important;  /* Light purple for footer links */
+}
+
+.footer a:hover {
+    color: #3700b3 !important;  /* Darker purple hover color */
+}
+
+/* Code blocks */
+pre, code {
+    background-color: #333 !important; /* Dark background for code */
+    color: #f8f8f2 !important; /* Light text for code */
+}
+
+/* Tables */
+table {
+    background-color: #333 !important; /* Dark tables */
+    color: #e0e0e0 !important; /* Light text in tables */
+}
+
+th, td {
+    border: 1px solid #444 !important; /* Slightly lighter border */
+}
+
+/* Header */
+header {
+    background-color: #1c1c1c !important;
+    color: #e0e0e0 !important;
+}
+
+/* Lighten other elements as needed */
+.container {
+    background-color: #121212 !important;
 }
