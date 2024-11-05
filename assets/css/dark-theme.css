@@ -76,3 +76,28 @@ h1, h2, h3, h4, h5, h6 {
 .footer a:hover {
     color: #A60A2C !important;  /* Darker red for footer links on hover */
 }
+
+/* Two-Column Layout Styles */
+.two-columns {
+    display: flex;               /* Use Flexbox for layout */
+    flex-wrap: wrap;             /* Allow the columns to wrap if the screen is too small */
+    gap: 30px;                   /* Add space between columns */
+    margin-bottom: 30px;         /* Add space below the columns */
+}
+
+.two-columns .left-column,
+.two-columns .right-column {
+    flex: 1;                     /* Each column takes up equal space */
+    min-width: 280px;            /* Minimum width to avoid columns becoming too narrow */
+    padding: 15px;               /* Padding inside the columns */
+    background-color: #fafafa;   /* Light background for the columns */
+    border: 1px solid #ddd;      /* Optional: Border for the columns */
+    border-radius: 8px;          /* Optional: Rounded corners for the columns */
+}
+
+/* Optional: Style for headings in the columns */
+.two-columns .left-column h3,
+.two-columns .right-column h3 {
+    color: #333;
+}
+
