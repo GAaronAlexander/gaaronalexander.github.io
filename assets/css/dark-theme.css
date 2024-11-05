@@ -1,150 +1,43 @@
-/* Dark theme overrides */
-body, html {
-    background-color: #121212 !important; /* Dark background */
-    color: #e0e0e0 !important; /* Light text */
-}
-
-/* Links and other text elements */
+/* Change link colors and highlights to Wisconsin Red */
 a {
-    color: #bb86fc !important; /* Light purple links */
+    color: #C8102E !important;  /* Wisconsin Red for links */
 }
 
-a:hover {
-    color: #3700b3; /* Darker purple on hover */
+a:hover,
+a:focus {
+    color: #A60A2C !important;  /* Slightly darker red for hover effect */
 }
 
-/* Apply Dark Background to Navbar */
-body.dark .navbar {
-    background-color: #121212 !important;  /* Dark background */
-    color: #e0e0e0 !important;              /* Light text */
+/* Change button styles to Wisconsin Red */
+.btn-primary {
+    background-color: #C8102E !important;  /* Wisconsin Red for primary buttons */
+    border-color: #A60A2C !important;      /* Darker red for button borders */
 }
 
-/* Navbar brand (logo or title) */
-body.dark .navbar .navbar-brand {
-    color: #e0e0e0 !important;  /* Light text for brand/logo */
+.btn-primary:hover {
+    background-color: #A60A2C !important;  /* Darker Wisconsin Red on hover */
 }
 
-body.dark .navbar .navbar-brand:hover {
-    color: #bb86fc !important;  /* Hover color for brand/logo */
+/* Change navbar highlight colors to Wisconsin Red */
+.navbar {
+    background-color: #C8102E !important;  /* Wisconsin Red for navbar background */
 }
 
-/* Navbar links */
-body.dark .navbar .nav-link {
-    color: #e0e0e0 !important;  /* Light text for links */
+.navbar .nav-link {
+    color: #fff !important;                /* White text for navbar links */
 }
 
-body.dark .navbar .nav-link:hover {
-    color: #bb86fc !important;  /* Hover color for links */
+.navbar .nav-link:hover {
+    color: #f5f5f5 !important;             /* Light color for navbar links on hover */
 }
 
-/* Hamburger menu (for mobile view) */
-body.dark .navbar-toggler-icon {
-    background-color: #e0e0e0 !important;  /* Light icon for the menu */
+/* Highlight headings in Wisconsin Red */
+h1, h2, h3, h4, h5, h6 {
+    color: #C8102E !important;  /* Wisconsin Red for all headings */
 }
 
-/* Adjust navbar for smaller screens */
-body.dark .navbar-toggler {
-    border-color: #e0e0e0 !important;  /* Light border for toggler button */
+/* Change the main background color to light grey */
+body {
+    background-color: #f5f5f5 !important;  /* Light grey */
+    color: #333;                          /* Dark text for good contrast */
 }
-
-.navbar a:hover {
-    color: #bb86fc !important;  /* Purple color on hover */
-}
-
-/* Apply Dark Background and Text Color to Footer */
-body.dark .footer {
-    background-color: #121212 !important;  /* Dark background */
-    color: #e0e0e0 !important;             /* Light text color */
-}
-
-/* Footer links (ensure they are visible and styled for dark mode) */
-body.dark .footer a {
-    color: #bb86fc !important;             /* Light purple links */
-}
-
-/* Footer links on hover */
-body.dark .footer a:hover {
-    color: #3700b3 !important;             /* Darker purple on hover */
-}
-
-/* If your footer has a copyright or other text */
-body.dark .footer p {
-    color: #e0e0e0 !important;             /* Ensure paragraph text in footer is light */
-}
-/* Code blocks */
-pre, code {
-    background-color: #333 !important; /* Dark background for code */
-    color: #f8f8f2 !important; /* Light text for code */
-}
-
-/* Tables */
-table {
-    background-color: #333 !important; /* Dark tables */
-    color: #e0e0e0 !important; /* Light text in tables */
-}
-
-th, td {
-    border: 1px solid #444 !important; /* Slightly lighter border */
-}
-
-/* Header */
-header {
-    background-color: #1c1c1c !important;
-    color: #e0e0e0 !important;
-}
-
-/* Lighten other elements as needed */
-.container {
-    background-color: #121212 !important;
-}
-
-/* Dark Theme Overrides for Buttons */
-
-/* General Button Styling */
-body.dark .btn {
-    background-color: #333 !important;   /* Dark background for all buttons */
-    color: #e0e0e0 !important;           /* Light text color */
-    border: 1px solid #444 !important;   /* Light border color */
-}
-
-body.dark .btn:hover {
-    background-color: #555 !important;   /* Darker background when hovered */
-    color: #ffffff !important;            /* White text on hover */
-}
-
-/* If you have specific button types, like .btn-primary, you can target them too */
-
-/* Dark Primary Button */
-body.dark .btn-primary {
-    background-color: #bb86fc !important;  /* Light purple background for primary button */
-    color: #121212 !important;             /* Dark text for contrast */
-    border: 1px solid #bb86fc !important;  /* Matching border */
-}
-
-body.dark .btn-primary:hover {
-    background-color: #3700b3 !important;  /* Darker purple when hovered */
-    color: #ffffff !important;             /* White text on hover */
-}
-
-/* Dark Secondary Button (if you use this) */
-body.dark .btn-secondary {
-    background-color: #444 !important;   /* Dark gray background for secondary button */
-    color: #e0e0e0 !important;           /* Light text color */
-    border: 1px solid #555 !important;   /* Light gray border */
-}
-
-body.dark .btn-secondary:hover {
-    background-color: #666 !important;   /* Darker gray on hover */
-    color: #ffffff !important;           /* White text on hover */
-}
-
-/* Navbar Toggle Button (hamburger menu for mobile) */
-body.dark .navbar-toggler {
-    background-color: #333 !important;  /* Dark background for toggle */
-    border-color: #444 !important;      /* Light border for toggle */
-}
-
-body.dark .navbar-toggler-icon {
-    background-color: #e0e0e0 !important;  /* Light color for the hamburger icon */
-}
-
