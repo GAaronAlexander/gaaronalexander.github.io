@@ -1,0 +1,32 @@
+/* Dark mode background and text color */
+body {
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+}
+
+/* Adjust links to be more visible */
+a {
+  color: #BB86FC; /* Light purple for links */
+}
+
+/* Modify headers for better contrast */
+h1, h2, h3, h4, h5, h6 {
+  color: #FFFFFF; /* Light text for headings */
+}
+
+/* Adjust code blocks */
+pre, code {
+  background-color: #333333;
+  color: #f0f0f0;
+}
+
+/* Modify navbar for dark mode */
+.navbar {
+  background-color: #333333; /* Dark navbar */
+}
+
+/* Adjust footer background */
+footer {
+  background-color: #121212;
+  color: #e0e0e0;
+}
