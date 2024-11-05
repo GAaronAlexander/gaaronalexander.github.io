@@ -13,33 +13,64 @@ a:hover {
     color: #3700b3; /* Darker purple on hover */
 }
 
-.navbar {
+/* Apply Dark Background to Navbar */
+body.dark .navbar {
     background-color: #121212 !important;  /* Dark background */
-    color: #e0e0e0 !important;              /* Light text color */
+    color: #e0e0e0 !important;              /* Light text */
 }
 
-.navbar a {
+/* Navbar brand (logo or title) */
+body.dark .navbar .navbar-brand {
+    color: #e0e0e0 !important;  /* Light text for brand/logo */
+}
+
+body.dark .navbar .navbar-brand:hover {
+    color: #bb86fc !important;  /* Hover color for brand/logo */
+}
+
+/* Navbar links */
+body.dark .navbar .nav-link {
     color: #e0e0e0 !important;  /* Light text for links */
+}
+
+body.dark .navbar .nav-link:hover {
+    color: #bb86fc !important;  /* Hover color for links */
+}
+
+/* Hamburger menu (for mobile view) */
+body.dark .navbar-toggler-icon {
+    background-color: #e0e0e0 !important;  /* Light icon for the menu */
+}
+
+/* Adjust navbar for smaller screens */
+body.dark .navbar-toggler {
+    border-color: #e0e0e0 !important;  /* Light border for toggler button */
 }
 
 .navbar a:hover {
     color: #bb86fc !important;  /* Purple color on hover */
 }
 
-/* Footer */
-.footer {
+/* Apply Dark Background and Text Color to Footer */
+body.dark .footer {
     background-color: #121212 !important;  /* Dark background */
-    color: #e0e0e0 !important;              /* Light text color */
+    color: #e0e0e0 !important;             /* Light text color */
 }
 
-.footer a {
-    color: #bb86fc !important;  /* Light purple for footer links */
+/* Footer links (ensure they are visible and styled for dark mode) */
+body.dark .footer a {
+    color: #bb86fc !important;             /* Light purple links */
 }
 
-.footer a:hover {
-    color: #3700b3 !important;  /* Darker purple hover color */
+/* Footer links on hover */
+body.dark .footer a:hover {
+    color: #3700b3 !important;             /* Darker purple on hover */
 }
 
+/* If your footer has a copyright or other text */
+body.dark .footer p {
+    color: #e0e0e0 !important;             /* Ensure paragraph text in footer is light */
+}
 /* Code blocks */
 pre, code {
     background-color: #333 !important; /* Dark background for code */
