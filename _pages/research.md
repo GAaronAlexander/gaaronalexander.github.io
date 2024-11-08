@@ -14,7 +14,7 @@ My current research has involved:
 
 Sub-Grid Hydrologic Process Representation in Land Surface Models
 =====
-<img src="../images/icon_plots_figure1-4Jun2023.png" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:10px;"/>
+<img src="../images/icon_plots_figure1-4Jun2023.png" alt="Image 1" style="float:right;max-width:70%;height:auto;padding:10px;"/>
 
 Urban spaces are complex patchworks of land-covers that interact with one another. Hydrologically, the routing of rainfall from impervious surfaces so pervious regions increases water storage and is a key component of urban climate adaptation. Tree cover, which shades pavements and intercepts rainfall are also critical. These features were note represented in land surface models, leaving large questions open on the impacts urban greening can have on the urban climate. I, and my team, developed a new parametrization suitable to model these interactions kilometer scale, making a first of its kind model suitable for coupled, land-atmosphere simulations. 
 
