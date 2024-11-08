@@ -4,27 +4,25 @@ permalink: /research/
 author_profile: true
 ---
 
-## Welcome to my custom page
+## Overview My Current Research 
 
-This is some introductory text. Below is a two-column layout.
 
-<div class="two-columns">
-  <div class="left-column">
-    <h3>Column 1 Title</h3>
-    <p>This is the content for the left column. Add whatever content you want here, such as text, images, or other elements.</p>
-  </div>
-  
-  <div class="right-column">
-    <h3>Column 2 Title</h3>
-    <p>This is the content for the right column. You can add similar content here, such as text or additional images.</p>
-  </div>
-</div>
 
----
+Sub-Grid Hydrologic Process Representation in Land Surface Models
+=====
+<img src="../images/icon_plots_figure1-4Jun2023.png" alt="Image 1" style="float:right;max-width:50%;height:auto;padding:10px;"/>
 
-## Another Section
+Urban spaces are complex patchworks of land-covers that interact with one another. Hydrologically, the routing of rainfall from impervious surfaces so pervious regions increases water storage and is a key component of urban climate adaptation. Tree cover, which shades pavements and intercepts rainfall are also critical. These features were note represented in land surface models, leaving large questions open on the impacts urban greening can have on the urban climate. I, and my team, developed a new paramterization suitable to model these interactions kilometer scale, making a first of its kind model suitable for coupled, land-atmosphere simulations. 
 
-Feel free to add more sections below the two-column layout.
+
+> ### Key Results
+> * Noah-MP for Heterogenious urban environments (HUE), with differing land-cover distributions was ran in Milwaukee, WI for different common greening implementations. 
+> * Sensitivity analysis showed that greening practices can enhance infiltration while also enhancing the soil water consumption through larger Evapotranspiration. 
+
+> ### Publication
+> * [Urban Ecohydrology: Accounting for Sub-Grid Lateral Water and Energy Transfers in a Land Surface Model](https://doi.org/10.1029/2023WR035511)
+
+<br>
 
 ## Current Projects
 
