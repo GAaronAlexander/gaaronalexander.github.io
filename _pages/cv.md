@@ -10,4 +10,4 @@ redirect_from:
 {% include base_path %}
 
 Last update: November 2024
-<embed src="../files/AaronAlexanderWebsite_CV_NOV2024.pdf" type="application/pdf" width="100%" />
+<embed src="../files/Alexander_CV_25Nov2024_website.pdf" type="application/pdf" width="100%" />
