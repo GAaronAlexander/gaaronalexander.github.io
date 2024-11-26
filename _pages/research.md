@@ -20,7 +20,7 @@ Urban spaces are complex patchworks of land-covers that interact with one anothe
 
 
 > ### Key Results
-> * Noah-MP for Heterogeneous urban environments (HUE), with differing land-cover distributions was ran in Milwaukee, WI for different common greening implementations. 
+> * Noah-MP for Heterogeneous Urban Environments (HUE), with differing land-cover distributions was ran in Milwaukee, WI for different common greening implementations. 
 > * Sensitivity analysis showed that greening practices can enhance infiltration while also enhancing the soil water consumption through larger Evapotranspiration. 
 
 > ### Publication
@@ -29,11 +29,41 @@ Urban spaces are complex patchworks of land-covers that interact with one anothe
 
 <br>
 
-## Current Projects
+Diagnosing the Impact of Fine-Scale Hydrologic Processes on Surface Energy Balance, Heat, and Humidity
+=====
+<img src="../images/T2-all-spatial-and-kde-V2.png" alt="Image 1" style="float:right;max-width:70%;height:auto;padding:10px;"/>
 
-### integrating the Processes of Green Infrastructure in a Large-Scale Land Surface Model
+In regional to global climate models, urban representation is hit-or-miss: Some models represent urban spaces as flat impervious surfaces, others use a mosaicking scheme to represent multiple landcovers in a grid cell. These two approaches can lead to drastically different urban climate representations, but neglect features of urban hydrology. In this study we compare Noah-MP HUE to a simple mosaic scheme and a bulk scheme to evaluate their skill in simulating hydrometeorological extremes in Milwaukee, WI. 
 
-![Test Image](/images/conceptual_model_v4_simple_title-01.png)
+
+> ### Key Results
+> * Noah-MP for Heterogeneous Urban Environments (HUE) and mosaicking schemes increases albedo and emissivity in our urban region compared to a bulk scheme. 
+> * Latent heat is enhanced in HUE when ample soil water is present, and diminished when there is low soil water conditions. Generally, this decreases in sensible heat fluxes. 
+> * When compared to in-situ observations, HUE & Mosaic present much higher skill compared to the traditional urban representation, while HUE & Mosaic have comparable performance. 
+
+> ### Publication
+> * Manuscript Entitled " City-Scale Evaluation of Urban Ecohydrologic Processes on Surface Energy Balance, Heat, and Humidity" under review
+
+<br>
+
+Identifying Urban Rainfall Intensification Mechanisms associated with Urban Land-Surface Representation
+=====
+<img src="../images/water@UW-2024.png" alt="Image 1" style="float:right;max-width:70%;height:auto;padding:10px;"/>
+
+Rainfall is one of the most important physical processes in urban regions, as it impacts day-to-day stormwater management and urban flood risk. Unfortunately, rainfall is one of the hardest physical processes to get correct in modern, convective permitting, regional simulations. In this study we compare Noah-MP HUE compared to other land-surface representations to see how urban land-atmosphere interactions feedback to hydrometeorological conditions leading to intense rainfall. 
+
+
+> ### Key Results
+> * Urban surface representation generates different near atmospheric conditions, such as cooler and more humid conditions in the afternoons when representing urban hydrology.
+> * Urban rainfall is better represented in many storms, and creates a better spatial patter, though this does not fix all problems that styme convective regional models. 
+> * HUE infiltrates more water compared to typical and mosaic simulations, which presents an exciting potential feedback to longer term urban climates. 
+
+> ### Publication
+> * Manuscript Entitled "Inclusion of Urban Hydrology Improves Representation of Urban Rainfall Intensification" in Prep 
+
+
+<br>
+
 
 
 <!-- {% include base_path %}
