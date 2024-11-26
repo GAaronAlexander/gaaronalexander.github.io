@@ -31,7 +31,7 @@ Urban spaces are complex patchworks of land-covers that interact with one anothe
 
 Diagnosing the Impact of Fine-Scale Hydrologic Processes on Surface Energy Balance, Heat, and Humidity
 =====
-<img src="../images/T2-all-spatial-and-kde-V2.png" alt="Image 1" style="float:right;max-width:70%;height:auto;padding:10px;"/>
+<img src="../images/T2-all-spatial-and-kde-small.jpg" alt="Image 1" style="float:right;max-width:70%;height:auto;padding:10px;"/>
 
 In regional to global climate models, urban representation is hit-or-miss: Some models represent urban spaces as flat impervious surfaces, others use a mosaicking scheme to represent multiple landcovers in a grid cell. These two approaches can lead to drastically different urban climate representations, but neglect features of urban hydrology. In this study we compare Noah-MP HUE to a simple mosaic scheme and a bulk scheme to evaluate their skill in simulating hydrometeorological extremes in Milwaukee, WI. 
 
