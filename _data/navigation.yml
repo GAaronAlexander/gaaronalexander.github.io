@@ -5,6 +5,9 @@ main:
 
   - title: "Teaching and Service"
     url: /teaching/ 
+
+  - title: "Publications and Talks"
+    url: /publications/ 
     
   - title: "CV"
     url: /cv/
