@@ -1,0 +1,103 @@
+/* Change the main background color to light grey */
+body {
+    background-color: #f5f5f5 !important;  /* Light grey */
+    color: #333 !important;               /* Dark text for contrast */
+}
+
+/* Change link colors to Wisconsin Red */
+a {
+    color: #C8102E !important;  /* Wisconsin Red for links */
+    text-decoration: none;      /* Remove underline by default */
+}
+
+a:hover,
+a:focus {
+    color: #A60A2C !important;  /* Darker red for links on hover */
+    text-decoration: underline; /* Add underline on hover/focus */
+}
+
+/* Change button styles to Wisconsin Red */
+.btn-primary {
+    background-color: #C8102E !important;  /* Wisconsin Red for primary buttons */
+    border-color: #A60A2C !important;      /* Darker red for button borders */
+}
+
+.btn-primary:hover {
+    background-color: #A60A2C !important;  /* Darker Wisconsin Red on hover */
+}
+
+/* Set navbar background color to light grey to match the page */
+.navbar {
+    background-color: #f5f5f5 !important;  /* Light grey background */
+    border-bottom: 1px solid #e0e0e0;     /* Optional: Add a light border to separate navbar */
+}
+
+/* Set navbar links and your name to black */
+.navbar .navbar-brand,  /* Your name */
+.navbar .nav-link {      /* Navigation links */
+    color: #333 !important;  /* Black text */
+}
+
+/* Make sure the navbar links are black when hovered or focused */
+.navbar .navbar-brand:hover, 
+.navbar .nav-link:hover, 
+.navbar .navbar-brand:focus, 
+.navbar .nav-link:focus {
+    color: #333 !important;  /* Black text on hover or focus */
+}
+
+/* Optional: If you have a mobile version of the navbar */
+.navbar-toggler {
+    background-color: #333 !important;  /* Dark toggle button */
+}
+
+/* Optional: Ensure the dropdown menu items also use black text */
+.navbar .dropdown-menu a {
+    color: #333 !important;  /* Black text for dropdown items */
+}
+
+.navbar .dropdown-menu a:hover {
+    background-color: #f5f5f5 !important;  /* Match the background on hover */
+    color: #333 !important;                 /* Black text when hovered */
+}
+
+/* Change headings (h1, h2, h3, etc.) to Wisconsin Red */
+h1, h2, h3, h4, h5, h6 {
+    color: #000000 !important;  /* Wisconsin Red for headings */
+}
+
+
+
+/* Optional: Change footer links to Wisconsin Red */
+.footer a {
+    color: #C8102E !important;  /* Wisconsin Red for footer links */
+}
+
+.footer a:hover {
+    color: #A60A2C !important;  /* Darker red for footer links on hover */
+}
+
+/* Two-Column Layout Styles */
+.two-columns {
+    display: flex;               /* Use Flexbox for layout */
+    flex-wrap: wrap;             /* Allow the columns to wrap if the screen is too small */
+    gap: 30px;                   /* Add space between columns */
+    margin-bottom: 30px;         /* Add space below the columns */
+}
+
+.two-columns .left-column,
+.two-columns .right-column {
+    flex: 1;                     /* Each column takes up equal space */
+    min-width: 280px;            /* Minimum width to avoid columns becoming too narrow */
+    padding: 15px;               /* Padding inside the columns */
+    background-color: #fafafa;   /* Light background for the columns */
+    border: 1px solid #ddd;      /* Optional: Border for the columns */
+    border-radius: 8px;          /* Optional: Rounded corners for the columns */
+}
+
+/* Optional: Style for headings in the columns */
+.two-columns .left-column h3,
+.two-columns .right-column h3 {
+    color: #333;
+}
+

@@ -6,12 +6,15 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+#remote_theme:  "mmistakes/minimal-mistakes@4.27.3"
+theme: minimal-mistakes-jekyll
+
+  #"mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "en-US"
-title                    : "G. Aaron Alexander"
+title                    : "Aaron Alexander"
 title_separator          : "-"
-name                     : &name "G. Aaron Alexander"
+name                     : &name "Aaron Alexander"
 description              : &description "personal description"
 url                      : https://gaaronalexander.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,9 +85,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "G. Aaron Alexander"
+  name             : "Aaron Alexander"
   avatar           : "headshot2024.jpg"
-  bio              : "Water Resource Engineering Ph.D. Candidate"
+  bio              : "Water Resource Engineering Postdoctoral Researcher"
   location         : "Madison, WI"
   employer         : "University of Wisconsin-Madison"
   pubmed           : 
@@ -280,6 +283,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-remote-theme
+  - jekyll-include-cache
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
